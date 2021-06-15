@@ -21,7 +21,7 @@ public class LinhaEncomendaFController {
         this.linhaEncomendaFService = linhaEncomendaFService;
     }
 
-    public List<EncomendafEntity> getLinhaEncomendaFEntity() {
+    /*public List<EncomendafEntity> getLinhaEncomendaFEntity() {
         return linhaEncomendaFService.getLinhaEncomendaFEntity();
-    }
+    }*/
 }

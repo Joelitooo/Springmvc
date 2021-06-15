@@ -20,8 +20,8 @@ public class LinhaencomendaCController {
         this.linhaEncomendaCService = linhaEncomendaCService;
     }
 
-    @GetMapping
+    /*@GetMapping
     public List<EncomendacEntity> getLinhaEncomendaCEntity() {
         return linhaEncomendaCService.getLinhaEncomendaCEntity();
-    }
+    }*/
 }
