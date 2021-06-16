@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agua List</title>
+</head>
+<body>
+<!--/*@thymesVar id="messages" type="com"*/-->
+<div th:each="entry:${messages}" >
+    <tr>
+        <td th:text="${entry.idagua}"No id!>
+        </td>
+
+    </tr>
+</div>
+</body>
+</html>
